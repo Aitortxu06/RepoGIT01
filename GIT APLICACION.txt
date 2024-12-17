@@ -1,0 +1,11 @@
+entornos de desarrolo aplicación GIT
+
+- .gitignore para indicarle a git que no se moleste en hacer algunas cosas que no lo copie y no lo suba.
+	Es un archivo de texto plano, se utiliza la almoadilla.
+	.gitignore java: Los archivos que no queremos que se suban  
+	git add . sube al stagin area todos los archivos desde la ultima vez que subimos y ficheros tambien 
+	git status Deja lo ultimo que hemos añadido
+	desde git en java: git restore lo que hace es restaurar lo ultimo que hemos añadido y al hacerlo desde git desaparece tambien de el archivo de eclipse 
+	git commit lo que hace es abrir un archivo que no se puede crear sin haber puesto una identificación para saber quien eres con git config.
+		git commit -m mensaje("Primer commi") se utiliza para crear el primer commit.
+		git log para ver nuestro primer commit y quien lo ha hecho.
